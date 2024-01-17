@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE FORM</title>
+    
+</head>
+<body>
+<h1 id="title">Employee Form</h1>
+<p id="description"> Introduction </p>
+<form id='survey-form'>
+  <label id="name-label">Name</label>
+        <input type="text" id = "name" required placeholder="name"><p>
+        <label id="email-label">Email</label> <input type="email"id = "email"required placeholder="email"></p>
+            <p>
+        <label for="Location">Address</label>
+        <textarea style="vertical-align: top;" rows="4" cols="80" ></textarea><br><br>
+    </p>
+
+        <p>
+        <label id="number-label">Choose number</label> <input type="number" id = "number" min="0" max="10" placeholder="number"></p>
+    <p>
+        <select id="dropdown">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+    </p>
+    
+    <p>
+
+        <label for="Gender">Gender</label><br><br>
+        <input type="radio" name="radio" value="male">
+        <label for="gender1">Male</label><br>
+        <input type="radio" name="radio" value="female">
+        <label for="gender1">Female</label><br>
+        <input type="radio" name="radio" value="others">
+        <label for="gender1">Others</label>
+    
+    </p>
+
+    <p>
+        <label for="vehicle">Vehicle</label><br><br>
+        <input type="checkbox" name="checkbox" value="bike">
+        <label for="bike">Bike</label><br>
+        <input type="checkbox" name="checkbox" value="scooty">
+        <label for="Scooty">Scooty</label>
+    </p>
+    <p>
+        <input id="submit" type="submit">
+    </p>
+</form>
+</body>
+</html>
